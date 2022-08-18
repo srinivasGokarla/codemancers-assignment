@@ -7,12 +7,12 @@ import './Search.css';
 function Search() {
 
 const Api_key="bGZb4wkTu2LcNXId5AfpIWHcCOQZE0py";
-const Base_Url = "http://api.giphy.com/v1/gifs/search";
 
-const [searchText,setSearchText] = useState("");
+
+
 const [searchGif,setSearchGif] = useState("");
 const [selectedGif, setSelectedGif] = useState("");
-
+const [searchText,setSearchText] = useState("");
 const [addText,setAddText] = useState([]);
 const [gifs,setGifs] = useState([]);
 
@@ -42,6 +42,16 @@ const gifResponse = async()=>{
 
   return (
     <div  className="search">
+           <textarea
+          type="text"
+          className="textarea form-control shadow-none mt-3"
+          rows="5"
+          cols="45"
+          placeholder="Write Something Here..."
+          value={searchText}
+          onChange={(e)=>setSearchText(e.target.value)}
+        />
+      
           <input
             type="text"
             placeholder="Search Gif..."
