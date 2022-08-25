@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/codemancers-assignment/static/css/main.239ce17c.css",
+    "main.js": "/codemancers-assignment/static/js/main.9e751e93.js",
+    "static/js/787.a057ce13.chunk.js": "/codemancers-assignment/static/js/787.a057ce13.chunk.js",
+    "index.html": "/codemancers-assignment/index.html",
+    "main.239ce17c.css.map": "/codemancers-assignment/static/css/main.239ce17c.css.map",
+    "main.9e751e93.js.map": "/codemancers-assignment/static/js/main.9e751e93.js.map",
+    "787.a057ce13.chunk.js.map": "/codemancers-assignment/static/js/787.a057ce13.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.239ce17c.css",
+    "static/js/main.9e751e93.js"
+  ]
+}
