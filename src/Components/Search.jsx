@@ -7,6 +7,7 @@ import './Search.css';
 function Search() {
 
 const Api_key="bGZb4wkTu2LcNXId5AfpIWHcCOQZE0py";
+const url = "http://api.giphy.com/v1/gifs/search?"
 
 
 
@@ -34,7 +35,7 @@ const postValue = ()=>{
 }
 
 const gifResponse = async()=>{
-  const response = await Axios.get(`http://api.giphy.com/v1/gifs/search?api_key=${Api_key}&q=${searchGif}`)
+  const response = await Axios.get(`${url}api_key=${Api_key}&q=${searchGif}`)
   
     setGifs(response.data.data);
    console.log(response.data.data)
