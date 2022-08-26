@@ -1,15 +1,22 @@
 
 import './App.css';
-// import {Search} from "./Components/Search"
+
+import ReactGiphySearchbox from "react-giphy-searchbox";
 
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Codemancers Assignment</h1>
+      <h1>React Giphy Searchbox</h1>
+      <div className="search">
+      <ReactGiphySearchbox 
+      apiKey= "Zc5pAS5yF6Sk7JjfL4wOmQkCldBR5UgY"
+      />
+
+      </div>
+      
      
-     {/* <  Search /> */}
     </div>
   );
 }
