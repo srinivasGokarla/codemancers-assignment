@@ -11,7 +11,8 @@ function App() {
       <h1>React Giphy Searchbox</h1>
       <div className="search">
       <ReactGiphySearchbox 
-      apiKey= "Zc5pAS5yF6Sk7JjfL4wOmQkCldBR5UgY"
+
+      apiKey= "9Ixlv3DWC1biJRI57RanyL7RTbfzz0o7"
       />
 
       </div>
