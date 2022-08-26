@@ -1,6 +1,6 @@
 
 import './App.css';
-import {Search} from "./Components/Search"
+// import {Search} from "./Components/Search"
 
 
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <h1>Codemancers Assignment</h1>
      
-     <  Search />
+     {/* <  Search /> */}
     </div>
   );
 }
